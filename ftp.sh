@@ -1,7 +1,7 @@
 #!/bin/bash
-REMOTEHOST=172.16.100.119
-USERNAME=hanbuild
-PASSWORD=hanbuild
+REMOTEHOST=172.16.219.7
+USERNAME=test
+PASSWORD=123qwe
 
 
 
@@ -9,5 +9,5 @@ PASSWORD=hanbuild
         ftp  -n   $REMOTEHOST<<EOF
         user $USERNAME  $PASSWORD
         binary
-        put /opt/HansightEnterprise_dev_3.3.5816.tar.gz /build/HansightEnterprise/dev/3.3/5816_pack/HansightEnterprise_dev_3.3.5816.tar.gz >/dev/null 2&>1
+        put /opt/HansightEnterprise_f-ent-sales_3.6.6841.tar.gz /Enterprisev3.2/HansightEnterprise_f-ent-sales_3.6.6841.tar.gz >/dev/null 2&>1
 EOF
