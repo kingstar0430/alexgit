@@ -9,5 +9,5 @@ PASSWORD=123qwe
         ftp  -n   $REMOTEHOST<<EOF
         user $USERNAME  $PASSWORD
         binary
-        put /opt/HansightEnterprise_f-ent-sales_3.6.6841.tar.gz /Enterprisev3.2/HansightEnterprise_f-ent-sales_3.6.6841.tar.gz >/dev/null 2&>1
+        put /opt/*_3.6.6841.tar.gz /Enterprisev3.2/*_3.6.6841.tar.gz >/dev/null 2&>1
 EOF
